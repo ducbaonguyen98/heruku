@@ -1,7 +1,7 @@
 require("dotenv").config();
 const mongoose = require("mongoose");
 
-const URL = "mongodb://favodefi:5taxzQgG@125.212.217.55:27000/2021_favodefi?authSource=2021_favodefi&readPreference=primary&appname=box001&directConnection=true&ssl=false";
+const URL = process.env.URL_MONGODB;
 
 mongoose.connect(URL, { useNewUrlParser: true, useUnifiedTopology: true,  socketTimeoutMS: 1000 }).then(() => {
     console.log("Connected to DB");
