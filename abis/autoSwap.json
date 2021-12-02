@@ -1,0 +1,172 @@
+[
+	{
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "token0",
+				"type": "address"
+			},
+			{
+				"internalType": "address",
+				"name": "token1",
+				"type": "address"
+			}
+		],
+		"name": "startSwapETHForTokens",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "token0",
+				"type": "address"
+			},
+			{
+				"internalType": "address",
+				"name": "token1",
+				"type": "address"
+			}
+		],
+		"name": "startSwapTokensForTokens",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "USDT",
+				"type": "address"
+			},
+			{
+				"internalType": "address",
+				"name": "NUT",
+				"type": "address"
+			},
+			{
+				"internalType": "uint256",
+				"name": "inputAmount",
+				"type": "uint256"
+			},
+			{
+				"internalType": "address",
+				"name": "router1",
+				"type": "address"
+			},
+			{
+				"internalType": "address",
+				"name": "router2",
+				"type": "address"
+			}
+		],
+		"name": "swapTokenAToB",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "USDT",
+				"type": "address"
+			},
+			{
+				"internalType": "address",
+				"name": "NUT",
+				"type": "address"
+			},
+			{
+				"internalType": "uint256",
+				"name": "inputAmount",
+				"type": "uint256"
+			},
+			{
+				"internalType": "address",
+				"name": "router1",
+				"type": "address"
+			},
+			{
+				"internalType": "address",
+				"name": "router2",
+				"type": "address"
+			}
+		],
+		"name": "swapTokenAToC",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"stateMutability": "nonpayable",
+		"type": "constructor"
+	},
+	{
+		"stateMutability": "payable",
+		"type": "fallback"
+	},
+	{
+		"inputs": [],
+		"name": "withdrawETH",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "token",
+				"type": "address"
+			}
+		],
+		"name": "withdrawToken",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "USDT",
+				"type": "address"
+			},
+			{
+				"internalType": "address",
+				"name": "NUT",
+				"type": "address"
+			},
+			{
+				"internalType": "uint256",
+				"name": "inputAmount",
+				"type": "uint256"
+			},
+			{
+				"internalType": "address",
+				"name": "router1",
+				"type": "address"
+			},
+			{
+				"internalType": "address",
+				"name": "router2",
+				"type": "address"
+			}
+		],
+		"name": "checkProfit",
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	}
+]

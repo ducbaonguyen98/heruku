@@ -1,0 +1,10 @@
+{
+  "multipleStatements": true,
+  "supportBigNumbers": true,
+  "connectionLimit": 100,
+  "connectTimeout": 15000,
+  "host": "maindb.fff.com.vn",
+  "user": "trader_usr",
+  "password": "trader2021#",
+  "database": "2021_bot_trader"
+}

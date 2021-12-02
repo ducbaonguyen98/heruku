@@ -1,0 +1,233 @@
+[
+    {
+        "stateMutability": "payable",
+        "type": "fallback"
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "address",
+                "name": "_address",
+                "type": "address"
+            }
+        ],
+        "name": "addUserSwap",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "address",
+                "name": "tokenA",
+                "type": "address"
+            },
+            {
+                "internalType": "address",
+                "name": "tokenB",
+                "type": "address"
+            },
+            {
+                "internalType": "address",
+                "name": "factory",
+                "type": "address"
+            }
+        ],
+        "name": "getReservesDex",
+        "outputs": [
+            {
+                "internalType": "uint256",
+                "name": "reserveA",
+                "type": "uint256"
+            },
+            {
+                "internalType": "uint256",
+                "name": "reserveB",
+                "type": "uint256"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "address",
+                "name": "usdt",
+                "type": "address"
+            },
+            {
+                "internalType": "address",
+                "name": "stable",
+                "type": "address"
+            },
+            {
+                "internalType": "address",
+                "name": "coin",
+                "type": "address"
+            },
+            {
+                "internalType": "uint256",
+                "name": "amountUsdt",
+                "type": "uint256"
+            },
+            {
+                "internalType": "uint256",
+                "name": "amountOutMin",
+                "type": "uint256"
+            },
+            {
+                "internalType": "address",
+                "name": "routerUsdtlow",
+                "type": "address"
+            },
+            {
+                "internalType": "address",
+                "name": "routerCoinLow",
+                "type": "address"
+            },
+            {
+                "internalType": "address",
+                "name": "routerCoinHight",
+                "type": "address"
+            }
+        ],
+        "name": "swapMultipleDex",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "address",
+                "name": "usdt",
+                "type": "address"
+            },
+            {
+                "internalType": "address",
+                "name": "stable",
+                "type": "address"
+            },
+            {
+                "internalType": "address",
+                "name": "coin",
+                "type": "address"
+            },
+            {
+                "internalType": "uint256",
+                "name": "amountUsdt",
+                "type": "uint256"
+            },
+            {
+                "internalType": "address",
+                "name": "router",
+                "type": "address"
+            }
+        ],
+        "name": "swapOnlyDex",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "address",
+                "name": "usdt",
+                "type": "address"
+            },
+            {
+                "internalType": "address",
+                "name": "stable",
+                "type": "address"
+            },
+            {
+                "internalType": "uint256",
+                "name": "amountUsdt",
+                "type": "uint256"
+            },
+            {
+                "internalType": "uint256",
+                "name": "amountOutMin",
+                "type": "uint256"
+            },
+            {
+                "internalType": "address",
+                "name": "routerLow",
+                "type": "address"
+            },
+            {
+                "internalType": "address",
+                "name": "routerHight",
+                "type": "address"
+            }
+        ],
+        "name": "swapUsdtToStableMultiple",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "address",
+                "name": "newOwner",
+                "type": "address"
+            }
+        ],
+        "name": "transferOwnership",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "address",
+                "name": "",
+                "type": "address"
+            }
+        ],
+        "name": "userSwap",
+        "outputs": [
+            {
+                "internalType": "bool",
+                "name": "",
+                "type": "bool"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "inputs": [],
+        "name": "withdrawETH",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "address",
+                "name": "token",
+                "type": "address"
+            },
+            {
+                "internalType": "uint256",
+                "name": "_amount",
+                "type": "uint256"
+            }
+        ],
+        "name": "withdrawToken",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+    },
+    {
+        "stateMutability": "payable",
+        "type": "receive"
+    }
+]

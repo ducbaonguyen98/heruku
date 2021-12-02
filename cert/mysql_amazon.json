@@ -1,0 +1,11 @@
+{
+  "multipleStatements": true,
+  "supportBigNumbers": true,
+  "connectionLimit": 100,
+  "connectTimeout": 15000,
+  "charset" : "utf8mb4",
+  "host": "database-1.cxyx03tmeoki.ap-southeast-1.rds.amazonaws.com",
+  "user": "admin",
+  "password": "1234qazZAQ",
+  "database": "2021_bot_trader"
+}

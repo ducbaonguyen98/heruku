@@ -1,0 +1,29 @@
+{  
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "@segment/isodate": "^1.0.3",
+    "body-parser": "^1.19.0",
+    "cheerio": "^1.0.0-rc.10",
+    "cors": "^2.8.5",
+    "delay": "^5.0.0",
+    "dotenv": "^10.0.0",
+    "ejs": "^3.1.6",
+    "elasticsearch": "^16.7.2",
+    "ethereum-input-data-decoder": "^0.3.5",
+    "ethers": "^5.5.1",
+    "express": "^4.17.1",
+    "got": "^11.8.2",
+    "graphql": "^16.0.1",
+    "graphql-request": "^3.6.1",
+    "http": "^0.0.1-security",
+    "moment": "^2.29.1",
+    "mongoose": "^6.0.13",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.15",
+    "socket.io": "^4.4.0",
+    "socket.io-client": "^4.4.0",
+    "web3": "^1.6.0"
+  } 
+}
