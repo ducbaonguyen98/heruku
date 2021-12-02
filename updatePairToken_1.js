@@ -7,12 +7,9 @@ const delay = require("delay");
 const { ethers, utils, BigNumber } = require("ethers");
 
 const url_1 = "https://bsc-dataseed.binance.org/";
-const url_2 = "https://speedy-nodes-nyc.moralis.io/c7eea3644b5212d5f15eea04/bsc/mainnet";
-const url_3 = "https://speedy-nodes-nyc.moralis.io/c7eea3644b5212d5f15eea04/bsc/mainnet/archive";
-const url_4 = "https://speedy-nodes-nyc.moralis.io/32df4832c13fe502f233cc81/bsc/mainnet";
-const url_5 = "https://speedy-nodes-nyc.moralis.io/32df4832c13fe502f233cc81/bsc/mainnet/archive";
-
-const URL = [url_1, url_2, url_3, url_4, url_5];
+const url_2 = "https://bsc-dataseed1.defibit.io/";
+const url_3 = "https://bsc-dataseed1.ninicoin.io/"; 
+const URL = [url_1, url_2, url_3];
 
 const initProvider = (infuraWSS) => {
     const config = {
@@ -163,7 +160,7 @@ const handleUpdatePairToken = async (provider, data, index) => {
 }
 
 const run = async (data, index) => {
-    const infuraWSS = url_1;  
+    const infuraWSS = URL[Math.floor(Math.random()*URL.length)];  
     const provider = initProvider(infuraWSS); 
     return handleUpdatePairToken(provider, data, index);
 }
