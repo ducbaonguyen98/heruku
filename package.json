@@ -1,7 +1,7 @@
 {  
   "scripts": {
     "dev": "nodemon server.js",
-    "start": "node updatePairToken_1.js"
+    "start": "node server.js"
   },
   "dependencies": {
     "@segment/isodate": "^1.0.3",
